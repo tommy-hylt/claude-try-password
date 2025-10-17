@@ -74,7 +74,6 @@ PickPassword/
 [ ] Completed
 
 **See**: `02-ai-matching/README.md` for detailed requirements
-**See**: `02-ai-matching/PLANNING.md` for detailed planning
 
 ---
 
