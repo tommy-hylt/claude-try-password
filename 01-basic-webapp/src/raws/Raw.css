@@ -1,0 +1,65 @@
+.raws-Raw {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.raws-Raw-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.raws-Raw-actions button {
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(255, 105, 180, 0.5);
+  border-radius: 4px;
+  background: rgba(255, 105, 180, 0.15);
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.raws-Raw-actions button:hover {
+  background: rgba(255, 105, 180, 0.3);
+  transform: translateY(-1px);
+}
+
+.raws-Raw-error {
+  padding: 1rem;
+  background: rgba(255, 0, 0, 0.15);
+  border: 1px solid rgba(255, 0, 0, 0.3);
+  border-radius: 8px;
+  color: #c00;
+  font-weight: 500;
+  backdrop-filter: blur(10px);
+}
+
+.raws-Raw-textarea {
+  width: 100%;
+  min-height: 500px;
+  padding: 1rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: #333;
+  resize: vertical;
+  transition: all 0.3s ease;
+}
+
+.raws-Raw-textarea:focus {
+  outline: none;
+  border-color: rgba(255, 105, 180, 0.8);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.2);
+}
+
+@media (max-width: 768px) {
+  .raws-Raw-textarea {
+    min-height: 300px;
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,26 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.App h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 1rem;
+  }
+
+  .App h1 {
+    font-size: 2rem;
+  }
+}
